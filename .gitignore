@@ -1,0 +1,8 @@
+.vscode/*
+*.code-workspace
+__pycache__/*
+.*
+!/.gitignore
+sample_submission.csv
+test.csv
+train.csv
