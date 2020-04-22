@@ -30,7 +30,7 @@ class SVM4342 ():
 
     # Given a 2-D matrix of examples X, output a vector of predicted class labels
     def predict (self, x):
-        return 2*((x.dot(self.w.T) + self.b).reshape(1,-1) > 0) -1  # TODO fix
+        return 2*((x.dot(self.w.T) + self.b).reshape(1,-1) > 0) - 1  # TODO fix
 
 def test1 ():
     # Set up toy problem
